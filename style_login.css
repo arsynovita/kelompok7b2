@@ -1,0 +1,179 @@
+*{
+	margin: auto;
+	font-family: serif, Times, Georgia;
+}
+
+#container{
+
+}
+section{
+	padding: 50px 0;
+}
+
+section .content{
+	width: 1100px;
+}
+.content h1{
+	padding-top: 20px;
+}
+section a{
+	text-decoration: none;
+	color: #ff5483;
+}
+section a:hover{
+	text-decoration: underline;
+}
+#menu{
+	background-color: #f4a460;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+#menu ul li {
+	display: inline;
+	margin: 0 30px 0 0;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#menu ul li a:hover{
+	color:black;
+}
+#section1{
+	background-image: url('images/gto.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 502px;
+	padding-top: 150px;
+	background-position: left top;
+}
+#section2 .left{
+	width: 275px;
+}
+#section1{
+	text-align: left;
+}
+
+
+#section3, left{
+	width: 275;
+}
+
+
+#section2, #section3{
+	text-align: center;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 45pt;
+	color: #48d1cc;
+}
+h2{
+	font-size: 25pt;
+}
+h3{
+	font-size: 18pt;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+p{
+	margin: 13px 0px;
+}
+
+p1{
+	color: #00fa9a;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.inline{
+	display: inline-block;
+	max-width: 300px;
+}
+
+.btn{
+	text-decoration: none !important;
+	border-radius: 5px;
+	padding: 7px 15px;
+}
+
+.img{
+	width: 100%;
+}
+
+.img-small{
+	max-height: 150px;
+}
+
+.btn-tomato{
+	background-color: #ff7f50;
+	color: #ffffff;
+}
+
+.btn-coral:hover{
+	background-color: #5f9ea0;
+}
+
+.btn-tomato:hover{
+	background-color: #66cdaa;
+}
+
+.no-sticky{
+	position: absolute;
+}
+.sticky{
+	background-color: #ffa07a!important;
+	position: fixed;
+}
+.sticky ul li a{
+	color: #20b2aa!important;
+}
+.sticky ul li a:hover{
+	color: #fff !important;
+}
+.slateGrey{
+ background-color: #e0ffff;
+ background-color: no-repeat;
+ color: #000000;
+}
+
+.pale{
+background-color: #afeeee;
+
+}
+
+.center{
+	float: center;
+}
+
+.peach{
+background-color: #ffdab9;
+
+}
+
+.gray{
+background-color: #f0f0f0;
+}
+
+.pale, .gray, #menu, h2{
+	color: #000000;
+}

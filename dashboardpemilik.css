@@ -1,0 +1,183 @@
+*{
+    margin: auto;
+    font-family: serif, Times, Georgia;
+}
+
+#container{
+
+}
+body{
+    background-image: url(images/bgdash.png);
+    background-repeat: repeat; 
+    background-size: cover; 
+
+}
+section{
+    padding: 50px 0;
+    
+}
+
+section .content{
+    width: 1100px;
+
+}
+#section2 .left{
+    width: 275px;
+}
+
+.pale{
+
+}
+
+.right{
+    float: right;
+}
+
+#menu{
+    background-color: #f4a460;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+#menu ul li {
+    display: inline;
+    margin: 0 30px 0 0;
+}
+#menu ul li a{
+    width: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu ul li a:hover{
+    color:black;
+}
+.btn{
+    background-color:  #ff9999
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+.btn-tomato{
+    background-color: #ff7f50;
+    color: #ffffff;
+}
+.btn-tomati {
+    background:#d81346;
+        color: #fff;
+        text-decoration: none;
+        padding:0px 30px;
+        text-align: center;
+        font-size: 17px;
+        display: inline-block;
+        width: 100%;
+        border: none;
+        cursor:pointer;
+        height: 45px;
+        margin-bottom: 15px;
+         -webkit-appearance: none;
+
+}
+
+.no-sticky{
+    position: absolute;
+}
+.sticky{
+    background-color: #ffa07a!important;
+    position: fixed;
+}
+.sticky ul li a{
+    color: #20b2aa!important;
+}
+.sticky ul li a:hover{
+    color: #fff !important;
+}
+
+.form-input{
+    margin: 0px auto;
+        width: 200px;
+        padding: 10px;       
+}
+.left{
+    float: left;
+}
+
+p1{
+    color: #00fa9a;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    font-weight: bold;
+    font-size: 45pt;
+    color: #48d1cc;
+}
+h2{
+    color: white;
+    font-family:verdana;
+    font-size:30pt; 
+}
+h3{
+    font-size: 20pt;
+    color: white;
+    margin: 10px;   
+}
+
+input[type="text"] {
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    width: 155%;
+    font-size: 15px;
+    padding: 0px 15px;
+    color: #304659;
+    height: 45px;
+    text-align: left;
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    width: 155%;
+    font-size: 15px;
+    padding: 0px 15px;
+    color: #304659;
+    height: 45px;
+    text-align: left;
+    -webkit-appearance: none;
+}
+select[name="gerbangmsk"]{
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    width: 155%;
+    font-size: 15px;
+    padding: 0px 15px;
+    color: #304659;
+    height: 45px;
+    text-align: left;
+    -webkit-appearance: none;
+}
+label {
+    color: #666666;
+    display: block;
+    font-size: 12px;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+img.kiri {
+    float: left;
+    margin: 5px;
+    width: 10pt;
+}
